@@ -1,0 +1,17 @@
+h1{
+color: rgb(184, 33, 6);
+font-size: 70px;
+font-family: sans-serif;
+text-decoration: underline;
+text-align: center;
+}
+p {
+    font-family: sans-serif;
+    color: rgb(red, green, blue);
+}
+button {
+    background-color: rgb(100, 0, 139);
+    color: rgb(0, 0, 0);
+    border: 0;
+    padding: 20px;
+}
