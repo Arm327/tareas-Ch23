@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas y Anclas</title>
+    <link rel="stylesheet" href="./Tablas y Anclas.css">
+</head>
+<body>
+    <h1>Tablas</h1>
+    <Caption>
+        Tabla de Nombre 
+    </Caption>
+
+    <Table>
+        <Tr>
+            <Th>Nombre</Th>
+            <Th>Apellido</Th>
+        </Tr>
+
+        <Tr>
+            <Td>Pedro</Td>
+            <Td>Infante</Td>
+        </Tr>
+
+        <Tr>
+            <Td>Sara</Td>
+            <Td>Garcia</Td>
+
+
+        </Tr>
+
+
+
+
+<Br>
+    </Table>
+    <table>
+        <p>Tabla simple con encabezado</p><!--Representa un parrafo de descrpcion-->
+        <thead><!--esta etiqueta agrupa los elementos de la cabecera en la tabla.-->
+            <tr>
+                <th colspan="2">Encabezado de tablas</th><!--permite expandir las celdas de datos o de encabezados al número de columnas que deseemos que ocupe-->
+            <!--rowspan: el atributo rowspan permite expandir las celdas al número de filas que queremos que ocupe. Siguiendo el ejemplo anterior, si quieres que una celda de datos ocupe cuatro filas, lo escribirás así: <td rowspan=»2″>-->
+            </tr>
+        </thead>
+        <tbody><!--esta etiqueta agrupa los elementos de contenido en la tabla.-->
+            <tr>
+                <td>El cuerpo de la tabla</td>
+                <td>con 2 columnas</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+
+    </Table>
+
+    <caption> Tabla de nombres</caption> <!--representa un título descriptivo en una tabla.-->
+
+    <p>Tabla con thead, tfoot, y tbody</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Header content 1</th>
+          <th>Header content 2</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Body content 1</td>
+          <td>Body content 2</td>
+        </tr>
+      </tbody>
+      <tfoot><!--esta etiqueta agrupa los elementos de pie en la tabla.-->
+        <tr>
+          <td>Footer content 1</td>
+          <td>Footer content 2</td>
+        </tr>
+      </tfoot>
+    </table>
+
+
+    <p>Table with colgroup</p>
+    <table>
+      <colgroup span="4"></colgroup> <!--Para aplicar una propiedad a más de una columna no es necesario repetir la propiedad en cada elemento <col>. Lo más sencillo es aplicarle el atributo span al primer elemento <col>. Este atributo funciona igual que rowspan y colspan, es decir, nos permite expandir la influencia de <col> al número de columnas que queramos.-->
+      <tr>
+        <th>Countries</th>
+        <th>Capitals</th>
+        <th>Population</th>
+        <th>Language</th>
+      </tr>
+      <tr>
+        <td>USA</td>
+        <td>Washington, D.C.</td>
+        <td>309 million</td>
+        <td>English</td>
+      </tr>
+      <tr>
+        <td>Sweden</td>
+        <td>Stockholm</td>
+        <td>9 million</td>
+        <td>Swedish</td>
+      </tr>
+    </table>
+
+    <col
+style = «background-color: black» span = «2»>
+<p>Table with colgroup and col</p>
+<table>
+  <colgroup><!--El elemento <col> se especifica dentro de un bloque <colgroup>, justo debajo de la apertura <table>.-->
+    <col style="background-color: rgb(255, 187, 0)" /> <!--Este elemento nos permite especificar propiedades de estilo para toda una columna. Sin este elemento tendríamos que especificar el estilo en cada celda <th> o <td> de la columna que queramos estilizar. -->
+    <col span="2" />
+  </colgroup>
+  <tr>
+    <th>Lima</th>
+    <th>Limon</th>
+    <th>Naranja</th>
+  </tr>
+  <tr>
+    <td>Green</td>
+    <td>Yellow</td>
+    <td>Orange</td>
+  </tr>
+</table>
+
+<p>Cuadro sencillo con leyenda(caption)</p>
+<table>
+  <caption>
+    Subtítulo impresionante
+  </caption>
+  <tr>
+    <td>Dato Impresionante</td>
+  </tr>
+</table>
+
+<hr>
+
+
+
+<p>Lista de Compras Mamalona</p>
+    <table>
+        <col
+style = «background-color: black» span = «2»>
+<p>Comida</p>
+<table>
+  <colgroup>
+    <col style="background-color: rgb(255, 0, 0)" /> 
+    <col span="4" />
+      <colgroup span="4"></colgroup> 
+      <tr>
+        <th>Carnes</th>
+        <th>Verduras</th>
+        <th>lacteos</th>
+        <th>Frutas</th>
+        <th>Comida para michis</th>
+      </tr>
+      <tr>
+        <td>Pollo</td>
+        <td>Lechuga</td>
+        <td>Leche</td>
+        <td>Fresa</td>
+        <td>Meow Mix</td>
+      </tr>
+      <tr>
+        <td>Pescado</td>
+        <td>Berenjena</td>
+        <td>Crema</td>
+        <td>Sandia</td>
+        <td>Whiskas</td>
+      </tr>
+      <tr>
+        <td>Tocino</td>
+        <td>Brocoli</td>
+        <td>Queso Oaxaca</td>
+        <td>Uvas</td>
+        <td>Cat Show</td>
+      </tr>
+      <tr>
+        <td>Albondigas suecas</td>
+        <td>Cebolla</td>
+        <td>Helado</td>
+        <td>Higos</td>
+        <td>Dog Show</td>
+      </tr>
+      <tr>
+        <td>BBQ</td>
+        <td>Tomate</td>
+        <td>Yogurt</td>
+        <td>Frambuesas</td>
+        <td>Pedegree</td>
+      </tr>
+      
+      <th>
+     Total: $3500
+      </th>
+    </table>
+
+<hr>
+
+<!--Agregar una identificación con un nombre de anclaje-->
+<a id="nombre-anclaje"> Aquí el nombre de la sección a la que quieres brincar </a>
+<!--Un anclaje en una cabecera-->
+<h2 id="nombre-anclaje">Walter Hartwell White "heisenberg"</h2>
+<!--Anclaje en una imagen-->
+<img id="nombre-anclaje" src="https://1.bp.blogspot.com/-uGLAtU4nGEs/WHFhvsmBbzI/AAAAAAAACEA/YKoV0HkNX-MWUZScrq_vuytUDC33eHGfQCLcB/s1600/BB-explore-S4-980x551-clean.jpg"/>
+<!--anclaje en un párrafo-->
+<p id="nombre-anclaje">Nombre del párrafo</p>
+<!--Crear un hipervínculo utilizando el identificador del objetivo del vínculo, precedido por #-->
+<a href="#nombre-anclaje">Brincar a la parte de la página con “nombre-anclaje” id </a>
+
+
+
+<hr>
+
+
+<h1>Receta de Burrito de Jamon de Pavo con Queso</h1>
+<a href="#Solomillo Wellington2">Burritos</a><br>
+<a href="#ingredientes2">Igredientes</a><br>
+<a name="Solomillo Wellington2"></a>
+<h2>Burritos de jamon de pavo con queso</h2>
+<p>
+  Deliciosos burritos fáciles de preparar de jamón con queso. Tienen un sabor riquísimo y son perfectos para el antojo.
+<a name="ingredientes2"></a>
+<h2>Lista de ingredientes para la preparacion de los burritos</h2>
+<table>
+    <tr> 
+        <th>Ingrediente</th> 
+        <th>Cantidad</th> 
+    </tr> 
+    <tr> 
+         <td>Tortillas de Harina</td> 
+         <td>2</td> 
+    </tr> 
+    <tr> 
+         <td>Rebanadas</td>
+         <td>2</td> 
+    </tr> 
+    <tr> 
+        <td>Rebanadas de queso manchego</td> 
+        <td>2</td> 
+   </tr> 
+   <tr> 
+        <td>Lechugas</td>
+        <td>al gusto</td> 
+   </tr> <tr> 
+    <td>jitomates</td> 
+    <td>al gusto</td> 
+</tr> 
+<tr> 
+    <td>Jugo de limón</td>
+    <td>al gusto</td> 
+</tr> 
+</table>
+<img id="nombre-anclaje" src="https://cdn7.kiwilimon.com/recetaimagen/13127/640x426/13205.jpg.webp"/>
+<a name="elaboracion2"></a>
+<h2>Elaboración de la receta de Burrito de Jamón de Pavo con Queso paso a paso</h2>
+<p>
+  Calienta las tortillas de harina. Pon una rebanada de jamón y otra de queso. Enrolla para que no se salga el queso cuando esté derretido. Vuelve a poner en el sartén.<br>
+  Procura dar vueltas para que no se queme, estará listo cuando el queso esté completamente derretido.<br>
+  Corta el jitomate en 8 partes, la lechuga picala finamente y revuelve. Adereza la ensalada con el jugo de limón. Acompaña tu burrito.<br>
+</p>
+
+<hr>
+
+</body>
+</html>

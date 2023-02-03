@@ -1,0 +1,16 @@
+input[type='image'] {
+    width: 80px;
+    margin-top: 1rem;
+}
+input[type='image'] {
+    width: 80px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+input[type='button'] {
+    width: 80px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
