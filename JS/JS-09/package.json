@@ -1,0 +1,25 @@
+{
+  "name": "Primer-Proyecto",
+  "version": "1.0.0",
+  "description": "MI primer proyecto en NPM, si como no...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arm327/tareas-Ch23.git"
+  },
+  "author": "Hector Meneses",
+  "license": "MIT license",
+  "bugs": {
+    "url": "https://github.com/Arm327/tareas-Ch23/issues"
+  },
+  "homepage": "https://github.com/Arm327/tareas-Ch23#readme",
+  "dependencies": {
+    "parrotsay-api": "^0.1.1"
+  },
+  "devDependencies": {
+    "parrotsay": "^0.1.0"
+  }
+}
