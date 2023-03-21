@@ -1,0 +1,24 @@
+import java.util.*;
+
+public class PhoneBook {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        int n = in.nextInt();
+        Map<String, Integer> phoneBook = new HashMap<String, Integer>();
+        for (int i = 0; i < n; i++) {
+            String name = in.next();
+            int phone = in.nextInt();
+            phoneBook.put(name, phone);
+        }
+        while (in.hasNext()) {
+            String name = in.next();
+            Integer phone = phoneBook.get(name);
+            if (phone == null) {
+                System.out.println("Not found");
+            } else {
+                System.out.println(name + "=" + phone);
+            }
+        }
+        in.close();
+    }
+}

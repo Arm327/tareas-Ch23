@@ -1,0 +1,16 @@
+LESS
+
+a = 1
+b = 2
+n = 5
+
+for i in range(n):
+    term = a + b * 2**i
+    print(term, end=' ')
+
+
+
+SALIDA
+
+1 3 5 9 17
+
