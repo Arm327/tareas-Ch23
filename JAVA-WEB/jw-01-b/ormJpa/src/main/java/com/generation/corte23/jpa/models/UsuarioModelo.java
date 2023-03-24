@@ -23,6 +23,7 @@ public class UsuarioModelo {
 	
 	
 	
+	
 	public UsuarioModelo(String nombre, String email, long id, Integer prioridad) {
 		super();
 		this.nombre = nombre;
